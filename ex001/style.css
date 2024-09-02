@@ -1,0 +1,252 @@
+/*Etilo geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    .poppins-thin {
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+      
+      .poppins-extralight {
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+      }
+      
+      .poppins-light {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+      .poppins-regular {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .poppins-medium {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+      .poppins-semibold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+      
+      .poppins-bold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .poppins-extrabold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+      }
+      
+      .poppins-black {
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+      
+      .poppins-thin-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+      }
+      
+      .poppins-extralight-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-style: italic;
+      }
+      
+      .poppins-light-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+      
+      .poppins-regular-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .poppins-medium-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+      
+      .poppins-semibold-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: italic;
+      }
+      
+      .poppins-bold-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+      
+      .poppins-extrabold-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: italic;
+      }
+      
+      .poppins-black-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+      
+      
+body{
+   background-color: black; 
+   height: 100vh;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex{
+  display: flex;
+}
+/*EStilo do cabeçalho*/
+header{
+    padding: 40px 4%;
+}
+header >.interface{
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+
+}
+header a{
+    color: rgb(107, 107, 107);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+header a:hover{
+color: #fff;
+transform: scale(1.20);
+}
+    
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px
+    
+}
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(155, 38, 112);
+    border: 0;
+    border-radius: 40px;
+    cursor: pointer;
+}
+header .btn-contato button:hover{
+    box-shadow: 0px 0px 7px rgb(155, 38, 112) ;
+}
+/*ESTILO DO TOPO DO SITE*/
+section.topo-do-site{
+  padding: 40px 4%;
+}
+section.topo-do-site .flex{
+align-items: center;
+justify-content: center;
+gap: 90px;
+}
+.topo-do-site h1{
+  color:rgb(155, 38, 112);
+  font-size: 150 px;
+  line-height: 40px;
+}
+.topo-do-site .txt-topo-site p{
+  color: #fff;
+  margin: 70px 0;
+  font-size: 30px;
+  text-align: justify;
+}
+/*estilo sobre*/
+section.sobre{
+  padding: 40px 4%;
+}
+section.sobre .flex{
+  align-items: center;
+  gap: 60px;
+}
+.sobre .txt-sobre{
+  color: #fff;
+}
+.sobre .txt-sobre h2{
+  font-size: 40px;
+  color: rgb(155, 38, 112);
+  margin-bottom: 30px;
+}
+.sobre .txt-sobre p{
+  margin: 20px;
+  text-align: justify; 
+  font-size: 25px;
+}
+/*estilo formação*/
+section.formação{
+  padding: 40px 4%; 
+ }
+section .formação .flex{
+  align-items: center;
+  gap: 60px;
+}
+.formação .txt-formação{
+  color: #fff;
+}
+.formação .txt-formação h2{
+  font-size: 30px;
+  color: rgb(155, 38, 112);
+  margin-bottom: 30px;
+}
+.formação .txt-formação p{
+  margin: 20px;
+  text-align: justify; 
+  font-size: 25px;
+  }
+ /*estilo portfólio*/
+
+ section .portfólio{
+  padding: 40px 4%;
+ }
+
+section .portfólio .flex{
+  align-items: center;
+  gap: 60px;
+}
+.portfólio .txt-portfólio p{
+  color: #fff;
+}
+.portfólio .txt-portfólio h2{
+  font-size: 30px;
+  color: rgb(155, 38, 112);
+  margin: 30px;
+}
+.portfólio .txt-portfólio p{
+  margin: 20px;
+  text-align: justify; 
+  font-size: 25px;
+  }
+
